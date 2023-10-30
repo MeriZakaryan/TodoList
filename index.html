@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>ToDo List</title>
+</head>
+<body>
+    <div class="container">
+        <h1> I'm going to...</h1>
+        <form onsubmit="myFunction(event)">
+            <input type="text" placeholder="Type something ...">
+            <button class="add-btn" onchange="addDiv(event)">✎</button>
+            <select name="" id="chooseNote">
+                <option value="All">All</option>
+                <option value="Done">Done</option>
+                <option value="Undone">Undone</option>
+            </select>
+        </form>
+        
+    </div>
+    <div class="main-content">
+
+    </div>
+
+    <script src="./todo.js"></script>
+</body>
+</html>
